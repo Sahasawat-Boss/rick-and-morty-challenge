@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+.btn{
+  @apply bg-green-200 rounded-2xl hover:cursor-pointer active:scale-75
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -24,4 +28,5 @@
 
 body {
   font-family: var(--font-geist-mono), monospace;
+  background-color: rgb(240, 240, 240);
 }

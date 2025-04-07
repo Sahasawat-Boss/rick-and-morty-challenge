@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
+
 const CharacterCard = () => {
+  
   return (
     <div className="px-4 py-3 bg-white rounded-md shadow-xs flex gap-4">
       <div className="relative w-28 h-28 rounded-md overflow-hidden shrink-0">

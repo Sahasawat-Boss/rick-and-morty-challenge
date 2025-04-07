@@ -8,8 +8,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rick and Morty",
-  description: "List of characters from Rick and Morty",
+  title: "Test - Rick and Morty",
+  description: "Test - List of characters from Rick and Morty",
 };
 
 export default function RootLayout({
